@@ -64,6 +64,10 @@ h1 {
   margin-bottom: 1rem;
 }
 
+a {
+  color: #5c4594;
+}
+
 section {
   margin: 0 3rem;
   width: 90vw;
