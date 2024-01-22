@@ -63,9 +63,24 @@ h1 {
   color: #5c4594;
   margin-bottom: 1rem;
 }
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #5c4594;
+  margin-bottom: 1rem;
+}
+h4 {
+  color: #5c4594;
+}
 
 a {
   color: #5c4594;
+}
+
+blockquote {
+  margin-left: 1rem;
+  padding: 0.5rem 0 0.5rem 1rem;
+  border-left: 4px solid #5c4594;
 }
 
 section {
@@ -73,13 +88,6 @@ section {
   width: 90vw;
   max-width: 800px;
   font-size: 1.2rem;
-}
-
-section h2 {
-  font-size: 2rem;
-  font-weight: 800;
-  color: #5c4594;
-  margin-bottom: 1rem;
 }
 
 ul.social-links {
