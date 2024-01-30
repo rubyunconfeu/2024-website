@@ -47,6 +47,33 @@ header .city {
   letter-spacing: 0.1rem;
   color: #5c4594;
 }
+header .tickets {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: 'Mona Sans';
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 0rem;
+  color: #5c4594;
+}
+header .tickets a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 20px 40px 25px;
+
+  background-repeat: no-repeat;
+  background-image: radial-gradient(circle at top left, transparent 17px, #e85454 17px), radial-gradient(circle at top right, transparent 17px, #e85454 17px), radial-gradient(circle at bottom left, transparent 17px, #e85454 17px), radial-gradient(circle at bottom right, transparent 17px, #e85454 17px);
+  box-shadow: 0 38px 14px -35px rgba(0,0,0,0.3);
+  background-size: 50% 50%;
+  background-position: top left, top right, bottom left, bottom right;
+}
+header .tickets a:hover {
+  margin-top: 19px;
+  margin-bottom: 1px;
+  box-shadow: 0 38px 14px -35px rgba(0,0,0,0.5);
+}
+
 @media screen and (max-width: 500px) {
   header .date {
     font-size: 2rem;
