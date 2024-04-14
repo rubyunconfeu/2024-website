@@ -117,6 +117,37 @@ section {
   font-size: 1.2rem;
 }
 
+.sponsor__list {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.index-sponsors .sponsor__list {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+}
+.sponsor__list li {
+  align-self: center;
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 801px) {
+  .index-sponsors .sponsor__list {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+  }
+}
+.sponsor__logo {
+  display: inline-block;
+  margin: 2rem 0;
+}
+
+.sponsor__logo img {
+  width: 264px;
+  max-width: 90%;
+}
+
 ul.social-links {
   padding: 0;
 }
