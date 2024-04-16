@@ -125,7 +125,7 @@ section {
 }
 .index-sponsors .sponsor__list {
   display: grid;
-  grid-template-columns: repeat(3, 33%);
+  grid-template-columns: repeat(2, 50%);
 }
 .sponsor__list li {
   align-self: center;
@@ -143,7 +143,20 @@ section {
   margin: 2rem 0;
 }
 
-.sponsor__logo img {
+.sponsor__logo__gold img {
+  width: 450px;
+  max-width: 90%;
+}
+
+.sponsor__logo__silver img {
+  width: 375px;
+}
+
+.sponsor__logo__bronze img {
+  width: 300px;
+}
+
+.sponsor__logo__community img {
   width: 264px;
   max-width: 90%;
 }
