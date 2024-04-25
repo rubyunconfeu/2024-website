@@ -150,15 +150,17 @@ section {
 
 .sponsor__logo__silver img {
   width: 375px;
+  max-width: 80%;
 }
 
 .sponsor__logo__bronze img {
   width: 300px;
+  max-width: 70%;
 }
 
 .sponsor__logo__community img {
   width: 264px;
-  max-width: 90%;
+  max-width: 60%;
 }
 
 ul.social-links {
