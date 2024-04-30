@@ -26,6 +26,11 @@ header img {
   display: inline-block;
   margin: 0 auto;
 }
+header .logo {
+  width: 98%;
+  max-width: 800px;
+  margin: 3rem 0;
+}
 header .date {
   display: flex;
   flex-direction: row;
