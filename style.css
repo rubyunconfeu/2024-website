@@ -163,6 +163,11 @@ section {
   max-width: 70%;
 }
 
+.sponsor__logo__coffee img {
+  width: 300px;
+  max-width: 70%;
+}
+
 .sponsor__logo__community img {
   width: 264px;
   max-width: 60%;
